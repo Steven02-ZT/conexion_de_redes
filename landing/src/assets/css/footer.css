@@ -1,0 +1,29 @@
+@media (max-width:1100px) {
+    footer .footer-logo{
+        margin: auto !important;
+    }
+
+    footer h1{
+        margin-top: 1rem !important;
+    }
+}
+
+@media (max-width:750px) {
+    footer > div{
+        display: block !important;
+    }
+
+    footer .footer-logo{
+        width: 10rem !important;
+    }
+
+    footer > div > div > div{
+        display: block !important;
+    }
+
+    footer > div > div > div a{
+        margin: auto !important;
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+}

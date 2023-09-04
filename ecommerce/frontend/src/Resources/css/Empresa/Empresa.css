@@ -1,0 +1,9 @@
+@media (max-width:750px) {
+    .enterprice{
+        height: 600px !important;
+    }
+
+    .enterprice .information{
+        display: block;
+    }
+}

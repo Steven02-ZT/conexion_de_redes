@@ -1,0 +1,53 @@
+.cart div .paymentCard {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  width: 250px;
+}
+@media (max-width: 1000px) {
+  .cart {
+    height: fit-content !important;
+    display: block;
+  }
+
+  .cart div .paymentCard {
+    margin: 0 !important;
+    width: 500px;
+  }
+
+  .productDescriptionP {
+    overflow-y: scroll;
+    height: 200px;
+  }
+
+  .stepPages{
+    height: 700px;
+  }
+  
+  .placeOrderInfo{
+    display: block;
+  }
+
+  .placeOrderInfo .scrollpanel table tbody tr .lastCol{
+    display: block;
+  }
+
+}
+
+@media (max-width: 750px) {
+  .cart div .paymentCard {
+    width: 250px;
+  }
+
+  .productDescriptionP {
+    height: 100px;
+    width: 200px;
+  }
+
+  .placeOrderInfo .scrollpanel{
+    overflow-x: scroll;
+  }
+
+  .placeOrderInfo .scrollpanel table tbody tr{
+    width: 500px;
+  }
+}

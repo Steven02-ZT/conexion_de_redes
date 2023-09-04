@@ -1,0 +1,18 @@
+@media (max-width:750px) {
+  header .nav-logo div {
+    width: 5rem !important;
+    height: 3rem !important;
+  }
+
+  header .nav-logo{
+    justify-content: center !important;
+    grid-row-start: 1 !important;
+    width: 100% !important;
+  }
+
+  header {
+    grid-template-columns: 1fr !important;
+    height: 7rem !important;
+    gap: 1px !important;
+  }
+}

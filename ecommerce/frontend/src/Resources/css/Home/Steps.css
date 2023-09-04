@@ -1,0 +1,27 @@
+.circleIconStep{
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media (max-width:550px) {
+    .stepsSection{
+        margin-top: 5em;
+    }
+
+    .stepsItemsContainer{
+        overflow-x: scroll;
+    }
+
+    .stepsItemsContainer .stepsItems{
+        width: 1000px;
+        grid-template-columns: repeat(10, minmax(0, 1fr));
+    }
+
+    .stepsItemsContainer::-webkit-scrollbar:horizontal{
+        height: 0px;
+    }
+
+    .stepsItemsContainer .stepsItems .stepStart{
+        grid-column-start: 1;
+    }
+}

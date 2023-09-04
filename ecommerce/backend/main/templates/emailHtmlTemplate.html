@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="
+            width: auto;
+            background: rgb(5 25 79);
+            color: white;">
+
+        <div  style="
+                color: rgb(21,11,93);
+                background-color: white;
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center">
+
+            <div style="
+            background-image: url(https://conexionderedes.com/wp-content/uploads/2020/09/Logo-CXR.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100px;
+            height: 100px;
+            margin-right: 10px"></div>
+
+            <h3>Hola, este es tu código de verificación!!.</h3>
+        </div>
+
+        {% if link %}
+            <div style="display: block;">
+                <h2>Ingresa el codigo o sigue al enlace para poder activar tu cuenta.</h2> 
+                <a href={{link}}><h3 style="text-decoration:none">Activar cuenta.</h3></a>
+            </div>
+        {%endif%}
+        {% if reset %}
+            <div style="display: block;">
+                <h2>Sigue el enlace para actualizar tu contraseña.</h2> 
+                <a href={{reset}}><h3 style="text-decoration:none">Cambiar contraseña</h3></a>
+            </div>
+        {%endif%}
+        {% if message %}
+            <div style="display: flex;">
+                <h3>Código:&nbsp;</h3><h2>{{message}} </h2> 
+            </div>
+        {%endif%}
+        <p style="
+        color: red;
+        width: 100%;
+        text-align: center;">Recuerda no compartir este código con nadie.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+@import './base.css';
+@import './css/nav.css';
+@import './css/footer.css';
+
+@import './css/init.css';
+@import './css/who.css';
+@import './css/benefits.css';
+@import './css/senko.css';
+@import './css/stuffed.css';
+@import './css/ourPrivileges.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -1,0 +1,14 @@
+.menu-image{
+    background-image: url(../Images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: none;
+    outline: none;
+}
+
+@media (max-width:400px) and (max-height:670px) {
+    #nav2 #NavBrandsOption{
+        content: 'Marcas';
+    }
+}

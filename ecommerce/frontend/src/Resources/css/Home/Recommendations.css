@@ -1,0 +1,42 @@
+.circleProduct{
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: inherit;
+}
+
+.recommendations{
+    box-shadow: rgb(112, 113, 113) 3px 3px 6px 0px inset, rgba(98, 97, 97, 0.51)-3px -3px 6px 1px inset;
+    padding-bottom: 10px;
+}
+
+/*ipad*/
+@media (max-width:1000px){
+    .rowSpaceRecomendation{
+        display: none;
+    }
+
+    .recomendationsTittle{
+        grid-column: span 5 / span 5;
+    }
+
+    .recomendationDivItems{
+        overflow-x: scroll;
+    }
+
+    .recomendationDivItems .recomendationsItems{
+        width: 1000px;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .recomendationDivItems::-webkit-scrollbar:horizontal{
+        height: 0px;
+    }
+}
+
+@media (max-width:550px) {
+    .recomendationsTittle{
+        grid-column: span 10 / span 10;
+    }
+}

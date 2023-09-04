@@ -1,0 +1,28 @@
+@media (max-width:750px) {
+ 
+    .init div div {
+        grid-template-rows: auto;
+    }
+
+    .init div div .div-brands{
+        justify-content: center !important;
+        height: 5rem !important;
+    }
+
+    .init div div .div-brands a span{
+        display: none !important;
+        visibility: hidden !important;
+    }
+
+    .init div div .div-info{
+        padding: 1rem !important; 
+    }
+
+    .init div div .div-buttons{
+        flex-direction: column !important;
+    }
+
+    .init div div .div-buttons a{
+        padding: .5rem;
+    }
+}

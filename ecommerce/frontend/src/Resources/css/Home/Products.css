@@ -1,0 +1,44 @@
+/*surface 7pro*/
+@media (min-height:1350px) and (min-width:900px){
+    .productsHome .productsLink{
+        margin-top: 3rem;
+    }
+}
+
+/*ipad air*/
+@media (max-width:1000px) {
+    .productsHome{
+        height: 600px !important;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+/*surface duo and minus*/
+@media (max-width:550px) and (max-height:750px){
+    .productsHome{
+        margin-top: 2em;
+    }
+}
+
+/*sm general*/
+@media (max-width:550px) {
+    .productsHome{
+        height: 500px !important;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+
+/*iphone se and similars*/
+
+@media (max-width:400px) and (max-height:670px) {
+    .productsHome{
+        margin-top: 2em;
+        height: 500px;
+    }
+
+    .productsHome .productsLink{
+        margin-top: 0px;
+    }
+}

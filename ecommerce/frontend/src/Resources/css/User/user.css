@@ -1,0 +1,45 @@
+@media(max-width:1000px){
+    .user .userInfo{
+        width: 100%;
+    }
+    
+    .user .userInfo div h3{
+        font-size: larger;
+    }
+
+    .user .userOrders{
+        width: 100%;
+    }
+
+    .user .userOrders table{
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .user .userOrders table tr{
+        font-size: x-large;
+    }
+}
+
+@media (max-width:750px) {
+    .user .userInfo div{
+        display: block;
+    }
+
+    .user .userInfo div h1{
+        padding-bottom: 10px;
+    }
+
+    .user .userInfo div h3{
+        font-size: large;
+    }
+
+    .user .userOrders{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .user .userOrders div .tableBox{
+        overflow: scroll;
+    }
+}

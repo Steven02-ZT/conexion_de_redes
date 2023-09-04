@@ -1,0 +1,29 @@
+@import url(./Banner.css);
+
+@media (max-width:1180px) {
+    .productsListContainer{
+        display: block;
+    }
+
+    .productsListContainer .filterDiv{
+        position: initial !important;
+    }
+
+    .gridProductsList{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0;
+        justify-content:center ;
+    }
+
+    .gridProductsList .card{
+        margin-left: auto !important;
+        height: 400px !important;
+    }
+}
+
+@media (max-width:750px){
+    .gridProductsList{
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+}

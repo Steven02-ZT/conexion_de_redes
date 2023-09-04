@@ -1,0 +1,1 @@
+link para los productos: :href="`http://localhost:3000/productos/${product.id}`"

@@ -1,0 +1,43 @@
+.SwiperConexion {
+  width: 100%;
+  height: 100%;
+}
+
+.SwiperConexion .swiper-slide {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.SwiperConexion .swiper-slide div .cardImage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media (max-width:1180px) {
+  .conexionProductLink{
+    width: 100%;
+  }
+}
+
+@media (max-width:1025px) {
+  .SwiperConexion .swiper-wrapper .swiper-slide{
+    width: 250px !important;
+  }
+}
+
+@media (max-width:750px) {
+  .SwiperConexion .swiper-wrapper .swiper-slide{
+    width: 200px !important;
+    margin-right: 20px !important;
+  }
+}
+
+@media (max-width:550px) {
+  .leftSideConexionProducts{
+    display: none;
+  }
+
+  .slideConexionProductsContainer{
+    grid-column: span 12/ span 12
+  }
+}

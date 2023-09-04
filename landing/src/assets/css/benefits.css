@@ -1,0 +1,15 @@
+@media (max-width:1100px) {
+    .benefits{
+        margin-top: 2rem !important;
+    }
+
+    .benefits div{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media (max-width:750px) {
+    .benefits div{
+        grid-template-columns: auto !important;
+    }
+}

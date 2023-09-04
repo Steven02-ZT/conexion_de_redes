@@ -1,0 +1,130 @@
+.bg-landing{
+    background-image: url(../../../Resources/Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-gradient-landing{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1),rgb(255, 255, 255), rgb(255, 255, 255));
+    
+}
+
+.buttonLink{
+    margin-top: -50px;
+}
+
+/*surface pro7 vertical and similar */
+@media (min-height:1350px) and (min-width:900px) {
+
+    .buttonLink{
+        margin-top: -50px !important;
+    }
+}
+
+@media (max-width:1050px) and (max-height:600px) {
+    .buttonLink{
+        margin-top: 0 !important;
+    }
+}
+
+/*ipad vertical */
+@media (max-width:1000px) and (max-height:1200px){
+    .bg-landing{
+        height: 700px;
+    }
+
+    .buttonLink{
+        margin-top: 10px;
+    }
+
+    .bg-gradient-landing{
+        overflow-x: scroll;
+        grid-gap: 15em;
+        justify-content: inherit;
+    }
+
+    .bg-gradient-landing::-webkit-scrollbar:horizontal{
+        height: 0px;
+    }
+
+    .bg-gradient-landing .card{
+        margin-top: 0 !important;
+        margin-left: 10px;
+    }
+}
+
+/*ipad mini and minus*/
+@media (max-width:770px) and (max-height:1030px){
+    .bg-landing{
+        height: 70vh;
+    }
+
+    .bg-gradient-landing{
+        grid-gap: 17em;
+    }
+}
+
+/*iphone and similar*/
+@media (max-width:450px) and (max-height:850px) {
+    .bg-landing{
+        height: 75vh;
+    }
+
+    .bg-gradient-landing{
+        grid-gap: 12em;
+    }
+
+}
+
+@media (max-width:450px) and (max-height:930px) {
+    .buttonLink{
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:370px) and (max-height:770px) {
+    .buttonLink{
+        margin-top: -20px !important;
+    }
+}
+
+/*surface duo and minus*/
+@media (max-width:550px) and (max-height:750px){
+    .bg-landing{
+        height: 75vh;
+    }
+
+    .bg-gradient-landing{
+        grid-gap: 11.5em;
+    }
+
+    .buttonLink{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .bg-gradient-landing .card{
+        margin-left: 0px !important;
+    }
+}
+
+/*iphone se and similars*/
+
+@media (max-width:400px) and (max-height:670px) {
+    .bg-landing{
+        height: 90vh;
+    }
+}
+
+/*sm horizontals views*/
+@media (max-width:920px) and (max-height:550px) {
+    .bg-landing{
+        height: 850px;
+    }
+
+    .buttonLink{
+        margin-top: -50px;
+    }
+}
+

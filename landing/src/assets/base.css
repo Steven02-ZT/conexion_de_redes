@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Quicksand:wght@400;600;700&display=swap');
+
+/*colores*/
+:root {
+  --v-slate-400: #94a3b8;
+  --v-slate-200: #e2e8f0;
+  --v-white: #fff;
+  --v-slate-950: #020617;
+  --v-blue-800:#1e40af;
+  --v-blue-900:#1e3a8a;
+}
+
+.v-slate-400 {
+  color: var(--v-slate-400);
+}
+
+.v-white {
+  color: var(--v-white);
+}
+
+.v-slate-950 {
+  color: var(--v-slate-950);
+}
+
+.v-blue-800 {
+  color: var(--v-blue-800);
+}
+
+.v-blue-900 {
+  color: var(--v-blue-900);
+}
+
+/*fuentes*/
+:root{
+  --quicksand: 'Quicksand', sans-serif;
+  --oswald: 'Oswald', sans-serif;
+}
+
+.quicksand-font {
+  font-family: var(--quicksand);
+}
+
+.oswald-font {
+  font-family: var(--oswald);
+}
+
+/* Escala Tipográfica para PC */
+:root {
+  --h1-font-size: 36px;
+  --h2-font-size: 28px;
+  --h3-font-size: 24px;
+  --paragraph-font-size: 16px;
+  --small-text-font-size: 14px;
+  --tiny-text-font-size: 12px;
+}
+
+/* Escala Tipográfica para Dispositivos Móviles */
+@media (max-width: 767px) {
+  :root {
+    --h1-font-size: 28px;
+    --h2-font-size: 24px;
+    --h3-font-size: 20px;
+    --paragraph-font-size: 16px;
+    --small-text-font-size: 14px;
+    --tiny-text-font-size: 12px;
+  }
+}
+
+/* Ejemplo de uso */
+.header {
+  font-size: var(--h1-font-size);
+}
+
+.tittle {
+  font-size: var(--h2-font-size);
+}
+
+.subtittle {
+  font-size: var(--h3-font-size);
+}
+
+.paragraph {
+  font-size: var(--paragraph-font-size);
+}
+
+.small-text {
+  font-size: var(--small-text-font-size);
+}
+
+.tiny-text {
+  font-size: var(--tiny-text-font-size);
+}
